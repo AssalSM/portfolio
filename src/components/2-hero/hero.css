@@ -1,0 +1,69 @@
+
+section.hero{
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+/*   img and icon*/
+section.hero .parent-avedar{
+    align-items: end;
+    gap: 0.6rem;
+}
+section.hero .left-section{
+    flex-grow: 1;
+}
+
+section.hero img{
+    width: 88px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 1px;
+}
+
+section.hero .verified{
+    color: var(--blue);
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+/* */
+
+section.hero h1.title{
+    font-size: 2.5rem;
+    line-height: 3.3rem;
+    margin: 24px 0;
+    color: var(--title);
+}
+ section.hero p.sub-title{
+    color: var(--subtitle);
+    font-size: 0.9rem;
+    margin-bottom: 32px;
+    line-height: 1.65rem;
+ }
+section.hero .icons{
+    font-size: 1.3rem;
+    gap: 1.5rem;
+    color: var(--subtitle);
+}
+section.hero .icons .icon:hover{
+    font-size: 1.4rem;
+   cursor: pointer;
+    color: var(--blue);
+    transition: 0.5s;
+} 
+ 
+@media (max-width: 600px) {
+    section.hero .animation{
+        display: none;
+    }
+}
+
+
+
+/* ++++++++++++++++++ 
+2-right section
+++++++++++++++++++*/
+
